@@ -1,0 +1,157 @@
+/* ГЛАВНАЯ СТРАНИЦА */
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #2196f3;
+}
+.logotyp {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  color: #212121;
+}
+.caption {
+  font-weight: 900;
+  font-size: 44px;
+  /* color: #ffffff; поставить позже то не видно на странице*/
+}
+.btn {
+  background: #2196f3;
+  color: #ffffff;
+}
+.headline {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* color: #ffffff;  применить по окончанию*/
+}
+.name-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.subject {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+section,
+
+/* ПОРТФОЛИО  */
+
+.images,
+p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+.button {
+  background: #f5f4fa;
+}
+.footer {
+}
+.main {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+}
+.button:hover {
+  background-color: #2196f3;
+}
+.button:focus {
+  color: #f5f4fa;
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+li, */
+
+/* HEADER */
+.header,
+a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav:hover {
+  color: #2196f3;
+}
+.nav {
+  color: #212121;
+}
+.telefon {
+  color: #757575;
+}
+.email {
+  color: #2196f3;
+}
+/* FOOTER */
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.footer-adress {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-nav {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-text {
+  text-transform: uppercase;
+  color: #ffffff;
+}
