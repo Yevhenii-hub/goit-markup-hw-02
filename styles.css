@@ -1,3 +1,14 @@
+/* Основной цвет нашего проекта */
+:root {
+  --primary-color: #212121;
+}
+:root {
+  --gray-collor: #757575;
+}
+:root {
+  --white-collor: #ffffff;
+}
+
 /* ГЛАВНАЯ СТРАНИЦА */
 body {
   font-family: Roboto, sans-serif;
@@ -9,12 +20,15 @@ h1 {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  color: #212121;
+  color: var(--primary-color);
 }
 p {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
+}
+a {
+  text-decoration: none;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -26,11 +40,17 @@ p {
 .logotyp {
   font-family: Raleway, sans-serif;
   font-size: 26px;
-  color: #212121;
+  color: var(--primary-color);
 }
 .caption {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   /* color: #ffffff; поставить позже то не видно на странице*/
 }
 .btn {
@@ -45,7 +65,7 @@ p {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--primary-color);
 }
 .desc {
   font-family: Roboto;
@@ -64,7 +84,7 @@ p {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-color);
 }
 .subject {
   font-family: Roboto;
@@ -73,10 +93,28 @@ p {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--primary-color);
 }
-section,
+h2,
+.our-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+h2,
+.our-clients {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
 
 /* ПОРТФОЛИО  */
 
@@ -87,7 +125,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
-  color: #757575;
+  color: var(--gray-collor);
 }
 .button {
   background: #f5f4fa;
@@ -100,7 +138,7 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  color: #212121;
+  color: var(--primary-color);
 }
 .button:hover {
   background-color: #2196f3;
@@ -126,12 +164,18 @@ a {
   color: #2196f3;
 }
 .nav {
-  color: #212121;
+  color: var(--primary-color);
 }
 .telefon {
-  color: #757575;
+  color: var(--gray-collor);
+}
+.telefon:hover {
+  color: #2196f3;
 }
 .email {
+  color: var(--gray-collor);
+}
+.email:hover {
   color: #2196f3;
 }
 /* FOOTER */
@@ -153,5 +197,8 @@ a {
 }
 .footer-text {
   text-transform: uppercase;
+  color: #ffffff;
+}
+.messenger {
   color: #ffffff;
 }
